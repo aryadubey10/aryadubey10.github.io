@@ -1,0 +1,152 @@
+*{
+    margin : 0;
+    padding : 0;
+    color: rgb(255, 0, 0);
+    font-size: small;
+    background-color: rgb(0, 0, 0);
+    font-family: "REM", serif;
+}
+
+/* NAVIGATION BAR */
+nav{
+    display: flex;
+    align-items: left;
+    position: sticky;
+    top: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.icon{
+    height: 60px;
+    width: 80px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+section{
+    flex-direction: column;
+}
+
+.list{
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #080808;
+    padding: 10px ;
+    gap: 20px;
+}
+
+li{
+    white-space: 30px;
+}
+
+.list .right{
+    margin-left: auto;
+}
+
+.list .pad{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+a:hover{
+    color: rgb(249, 249, 249);
+    background-color: rgb(3, 3, 3);
+    box-shadow: 4px 4px 4px 4px rgba(245, 239, 239, 0.4);
+    z-index: +2;
+}
+
+/* HORIZONTAL RULER */
+
+.ruler{
+    color: white;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+/* CAR IMAGE SIZE  */
+.a1{
+    height: 600px;
+    width: 100%;
+}
+
+/* .a1:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 1, 1);
+    box-shadow: 4px 4px 4px 4px rgba(255, 0, 0, 0.4);
+    z-index: +2;
+} */
+
+/* FOOTER SECTION */
+
+.footer1{
+    background-color: rgb(78, 77, 77);
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+strong{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(78, 77, 77);
+    margin: 20px;
+    padding: 20px;
+}
+
+#subscribe_button{
+    color: white;
+    padding: 15px;
+    border-style: none;
+    border-radius: 8px;
+    /* background-color: rgb(251, 74, 51); */
+    background: radial-gradient(circle, #eb7b7b, #ff0000);
+    margin: 20px;
+}
+
+#subscribe_button:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 4px rgba(18, 18, 18, 0.8);
+    z-index: +2;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2px; 
+    margin: auto;
+  }
+
+.description{
+    color: white;
+    margin: 30px;
+    font-size: 12px;
+}
+
+.footer3{
+    color: slategrey;
+    text-align: center;
+    font-size: 10px;
+    margin: 8px;
+    padding: 2px;
+    background-color: rgb(72, 71, 71);
+}
+
+.image1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
