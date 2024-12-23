@@ -15,6 +15,7 @@ nav{
     top: 0;
     flex-wrap: nowrap;
     flex-direction: column;
+    max-width:100%
 }
 
 .icon{
