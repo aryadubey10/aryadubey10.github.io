@@ -5,6 +5,7 @@
     font-size: small;
     background-color: rgb(0, 0, 0);
     font-family: "REM", serif;
+    box-sizing: border-box;
 }
 
 /* NAVIGATION BAR */
@@ -15,6 +16,8 @@ nav{
     top: 0;
     flex-wrap: nowrap;
     flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    z-index: 999;
 }
 
 .icon{
@@ -24,22 +27,22 @@ nav{
     border-radius: 8px;
 }
 
-section{
-    flex-direction: column;
-}
 
 .list{
     list-style-type: none;
     display: flex; 
-    justify-content: flex-start; 
+    /* justify-content: flex-start;  */
+    justify-content: space-between;
     align-items: center;
     background-color: #080808;
     padding: 10px ;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 li{
-    white-space: 30px;
+    /* white-space: 30px; */
+    white-space: nowrap;
 }
 
 .list .right{
@@ -76,7 +79,8 @@ a:hover{
 
 /* CAR IMAGE SIZE  */
 .a1{
-    height: 600px;
+    /* height:600px */
+    height: auto;
     width: 100%;
 }
 
@@ -151,3 +155,53 @@ strong{
     background-color: black;
 }
 
+@media (max-width: 768px) {
+    .list {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Increase spacing for better readability */
+    }
+
+    .description {
+        font-size: 14px; /* Slightly larger font for better readability */
+    }
+
+    #subscribe_button {
+        width: 100%; /* Makes button full-width */
+        text-align: center;
+    }
+}
+
+/* For Mobile Devices (screen width less than 480px) */
+@media (max-width: 480px) {
+    nav {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .list {
+        gap: 10px; /* Smaller gap for tighter spacing */
+    }
+
+    a {
+        font-size: 12px; /* Smaller font size for links */
+        padding: 8px; /* Reduce padding */
+    }
+
+    .footer1 {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    strong {
+        font-size: 18px; /* Reduce heading size */
+    }
+
+    .description {
+        font-size: 10px; /* Further reduce description size */
+        margin: 10px;
+    }
+}
