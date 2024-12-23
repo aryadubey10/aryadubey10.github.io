@@ -5,7 +5,6 @@
     font-size: small;
     background-color: rgb(0, 0, 0);
     font-family: "REM", serif;
-    box-sizing: border-box;
 }
 
 /* NAVIGATION BAR */
@@ -14,11 +13,10 @@ nav{
     align-items: left;
     position: sticky;
     top: 0;
-/*     flex-wrap: nowrap; */
+    flex-wrap: nowrap;
     flex-direction: column;
     max-width:100%
     background-color: rgb(10, 10, 10);
-    z-index: 999;
 }
 
 .icon{
@@ -40,11 +38,10 @@ section{
     background-color: #080808;
     padding: 10px ;
     gap: 20px;
-    flex-wrap:wrap;
 }
 
 li{
-    white-space: nowrap;
+    white-space: 30px;
 }
 
 .list .right{
@@ -81,7 +78,7 @@ a:hover{
 
 /* CAR IMAGE SIZE  */
 .a1{
-    height: auto;
+    height: 60%;
     max-width: 100%;
 }
 
