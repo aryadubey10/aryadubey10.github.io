@@ -177,6 +177,10 @@ strong{
         font-size: 8px;
     }
 
+    .a1{
+        max-width:100%;
+    }
+
     nav {
         padding: 10px; 
     }
