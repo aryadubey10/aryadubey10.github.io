@@ -153,7 +153,7 @@ strong{
 
 @media (max-width: 790px) {
     *{
-        font-size: 8px;
+        font-size: 4px;
     }
 
     nav{
@@ -161,7 +161,7 @@ strong{
     }
 
     .a1 img{
-        width:80%;
+        width:100%;
     }
 
     .container {
@@ -203,7 +203,7 @@ strong{
     }
 
     .a1 img{
-        width:80%;
+        width:100%;
     }
 
     nav {
