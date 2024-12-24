@@ -158,7 +158,7 @@ strong{
     }
 
     .list {
-        flex-direction: column; 
+        flex-direction: rows; 
         align-items: flex-start; 
     }
 
