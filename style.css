@@ -208,30 +208,26 @@ strong{
     }
 
     nav {
-        padding: 10px; 
-    }
-
-    .list {
-        gap: 10px;
+        padding: 5px; 
     }
 
     a {
-        font-size: 12px;
-        padding: 8px;
+        font-size: 4px;
+        padding: 4px;
     }
 
     .footer1 {
-        font-size: 12px;
-        padding: 15px;
+        font-size: 4px;
+        padding: 6px;
     }
 
-    strong {
-        font-size: 18px; 
+    strong{
+        font-size: 10px; 
     }
 
     .description {
-        font-size: 10px; 
-        margin: 10px;
+        font-size: 5px; 
+        margin: 5px;
     }
 
     .footer4{
