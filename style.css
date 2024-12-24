@@ -150,3 +150,58 @@ strong{
     width: 50px;
     background-color: black;
 }
+
+@media (max-width: 790px) {
+    *{
+        font-size: 10px;
+    }
+
+    .container {
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .description {
+        font-size: 14px; 
+    }
+
+    #subscribe_button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* For Mobile Devices (screen width less than 480px) */
+@media (max-width: 480px) {
+    *{
+        font-size: 8px;
+    }
+
+    nav {
+        padding: 10px; 
+    }
+
+    .list {
+        gap: 10px;
+    }
+
+    a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .footer1 {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    strong {
+        font-size: 18px; 
+    }
+
+    .description {
+        font-size: 10px; 
+        margin: 10px;
+    }
+}
+
