@@ -157,11 +157,6 @@ strong{
         font-size: 4px;
     }
 
-    .list {
-        flex-direction: rows; 
-        align-items: flex-start; 
-    }
-
     nav{
         width:100%;
     }
