@@ -179,8 +179,24 @@ strong{
         width: 100%;
         text-align: center;
     }
-}
 
+    .footer4{
+        font-size:8px;
+    }
+
+    .footer2{
+        font-size:8px;
+    }
+    .footer3{
+        font-size:8px;
+    }
+    .image1{
+        height:30px;
+        width:30px;
+    }
+} 
+
+    
 /* For Mobile Devices (screen width less than 480px) */
 @media (max-width: 480px) {
     *{
@@ -216,6 +232,22 @@ strong{
     .description {
         font-size: 10px; 
         margin: 10px;
+    }
+
+    .footer4{
+        font-size:8px;
+    }
+
+    .footer2{
+        font-size:8px;
+    }
+    .footer3{
+        font-size:8px;
+    }
+
+    .image1{
+        height:15px;
+        width:15px;
     }
 }
 
