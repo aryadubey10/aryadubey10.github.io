@@ -157,6 +157,28 @@ strong{
         font-size: 4px;
     }
 
+    .list{
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #080808;
+    padding: 8px ;
+    gap: 16px;
+    }
+    
+    li{
+        white-space: 24px;
+    }
+    
+    .list .right{
+        margin-left: auto;
+    }
+    
+    .list .pad{
+        margin-left: 8px;
+    }
+
     nav{
         width:100%;
     }
@@ -202,6 +224,28 @@ strong{
     *{
         font-size: 4px;
     }
+    .list{
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    background-color: #080808;
+    padding: 2px ;
+    gap: 4px;
+    }
+    
+    li{
+        white-space: 6px;
+    }
+    
+    .list .right{
+        margin-left: auto;
+    }
+    
+    .list .pad{
+        margin-left: 2px;
+    }
+
 
     .a1 img{
         width:100%;
