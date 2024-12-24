@@ -182,6 +182,7 @@ strong{
 
     .footer4{
         font-size:8px;
+        text-align:center;
     }
 
     .footer2{
@@ -198,7 +199,7 @@ strong{
 
     
 /* For Mobile Devices (screen width less than 480px) */
-@media (max-width: 480px) {
+@media (max-width: 260px) {
     *{
         font-size: 4px;
     }
@@ -236,6 +237,7 @@ strong{
 
     .footer4{
         font-size:8px;
+        text-align:center;
     }
 
     .footer2{
