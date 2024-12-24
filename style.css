@@ -9,8 +9,7 @@
 
 /* NAVIGATION BAR */
 nav{
-    width: 80%; 
-    max-width: 1200px;
+    width: 100%;
     display: flex;
     align-items: left;
     position: sticky;
@@ -159,7 +158,7 @@ strong{
     }
 
     nav{
-        width:80%;
+        width:100%;
     }
 
     .a1 img{
@@ -199,7 +198,7 @@ strong{
 
     
 /* For Mobile Devices (screen width less than 480px) */
-@media (max-width: 260px) {
+@media (max-width: 300px) {
     *{
         font-size: 4px;
     }
